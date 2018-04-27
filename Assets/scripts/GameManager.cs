@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     private Color[] colors= {Color.cyan, Color.green, Color.magenta, Color.red, Color.white, Color.yellow};
 
+    [SerializeField] private StarSpawner starSpawner;
+    [SerializeField] int currentLevelIndex;
+
 	// Use this for initialization
 	void Awake () 
     {
@@ -25,7 +28,15 @@ public class GameManager : MonoBehaviour
 
     public void LoadGamePlayScene()
     {
-        SceneManager.LoadScene("gameplay");
+        int levelIndex = PlayerPrefs.GetInt("currentLevel");
+        if (levelIndex < 3)
+        {
+            SceneManager.LoadScene("level1");
+        }
+        else
+        {
+            SceneManager.LoadScene(levelIndex);
+        }
     }
 
     public void LoadHighScoreScene()
@@ -43,9 +54,16 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void Test()
+    public void Reload()
     {
-        Debug.Log("test");
+        LoadGamePlayScene();
+    }
+
+    public void Reset()
+    {
+        PlayerPrefs.SetInt("currentScore", 0);
+        PlayerPrefs.SetInt("highScore", 0);
+        PlayerPrefs.SetInt("currentLevel", 3);
     }
 
     public Color CameraColor()
