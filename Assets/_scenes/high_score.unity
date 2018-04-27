@@ -113,7 +113,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &978242390
+--- !u!1001 &444420304
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -158,7 +158,7 @@ Prefab:
     - target: {fileID: 224984526623467366, guid: 8bd6e70079c09ea4faca9b0da621a707,
         type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224984526623467366, guid: 8bd6e70079c09ea4faca9b0da621a707,
         type: 2}
@@ -210,15 +210,16 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114311271536709744, guid: 8bd6e70079c09ea4faca9b0da621a707,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1982023868}
     - target: {fileID: 223861199178141042, guid: 8bd6e70079c09ea4faca9b0da621a707,
         type: 2}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 1305860938}
-    - target: {fileID: 1641927416411018, guid: 8bd6e70079c09ea4faca9b0da621a707, type: 2}
-      propertyPath: m_Name
-      value: GameOverMenu
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1478793453}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8bd6e70079c09ea4faca9b0da621a707, type: 2}
   m_IsPrefabParent: 0
@@ -259,7 +260,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4265124722837412, guid: 0f1bac1d672bd2c4eb271a729e881201, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f1bac1d672bd2c4eb271a729e881201, type: 2}
@@ -301,16 +302,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4925099519924794, guid: fb9d42352ef30a344b403907e216b0d5, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fb9d42352ef30a344b403907e216b0d5, type: 2}
   m_IsPrefabParent: 0
---- !u!20 &1305860938 stripped
+--- !u!20 &1478793453 stripped
 Camera:
   m_PrefabParentObject: {fileID: 20802931020520634, guid: fb9d42352ef30a344b403907e216b0d5,
     type: 2}
   m_PrefabInternal: {fileID: 1305860937}
+--- !u!114 &1982023868 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114668510850876712, guid: 0f1bac1d672bd2c4eb271a729e881201,
+    type: 2}
+  m_PrefabInternal: {fileID: 1110418520}
+  m_Script: {fileID: 11500000, guid: e00f4b0e246989849bb9ccf9014fc523, type: 3}
 --- !u!1 &2088475858
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,5 +378,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -160,11 +160,33 @@ Prefab:
     - target: {fileID: 114802073445530582, guid: 2b1f4235575bc6d4b94c56be00c4167b,
         type: 2}
       propertyPath: rotateSpeed
-      value: -150
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 114573465490823454, guid: 2b1f4235575bc6d4b94c56be00c4167b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2b1f4235575bc6d4b94c56be00c4167b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &177683508 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1576086274834620, guid: 2b1f4235575bc6d4b94c56be00c4167b,
+    type: 2}
+  m_PrefabInternal: {fileID: 177683507}
+--- !u!114 &177683509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 177683508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 633f2c0ffc4126740a9c13cc4db11581, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 0
 --- !u!1001 &710112698
 Prefab:
   m_ObjectHideFlags: 0

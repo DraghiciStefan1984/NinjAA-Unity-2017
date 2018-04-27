@@ -9,7 +9,7 @@ public class HighScore : MonoBehaviour
     [SerializeField] private Text highScoreText;
 
     private int currentScoreValue;
-    private int highScoreValue;
+    private static int highScoreValue;
 
 	// Use this for initialization
 	void Start () 
@@ -18,6 +18,14 @@ public class HighScore : MonoBehaviour
         highScoreValue = PlayerPrefs.GetInt("highScore");
 
         currentScoreText.text = "current score: " + currentScoreValue;
-        highScoreText.text = "high score: " + highScoreValue;
+
+        if (currentScoreValue >= highScoreValue)
+        {
+            highScoreText.text = "high score: " + currentScoreValue;
+        }
+        else
+        {
+            highScoreText.text = "high score: " + highScoreValue;
+        }
 	}
 }
