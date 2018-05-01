@@ -281,14 +281,8 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114668510850876712, guid: 0f1bac1d672bd2c4eb271a729e881201,
         type: 2}
-      propertyPath: starSpawner
+      propertyPath: levelText
       value: 
-      objectReference: {fileID: 114274140415892824, guid: c3927923d744f0047b9d54fac3b55a0c,
-        type: 2}
-    - target: {fileID: 114668510850876712, guid: 0f1bac1d672bd2c4eb271a729e881201,
-        type: 2}
-      propertyPath: currentLevelIndex
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0f1bac1d672bd2c4eb271a729e881201, type: 2}

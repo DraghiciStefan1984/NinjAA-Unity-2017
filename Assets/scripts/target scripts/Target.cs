@@ -7,13 +7,15 @@ using UnityEngine.UI;
 public class Target : MonoBehaviour 
 {
     public static int CurrentScore{ get; set;}
-    [SerializeField] private Text currentScoreText;
+    [SerializeField] Text currentScoreText, levelText;
 
 	// Use this for initialization
 	void Start () 
     {
         CurrentScore = 0;
         currentScoreText.text = "score: 0";
+        levelText.text = SceneManager.GetActiveScene().name;
+
         PlayerPrefs.SetInt("currentLevel", SceneManager.GetActiveScene().buildIndex);
         PlayerPrefs.SetInt("currentScore", 0);
         PlayerPrefs.SetInt("highScore", 0);
