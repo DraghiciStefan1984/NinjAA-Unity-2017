@@ -151,7 +151,7 @@ MonoBehaviour:
   - {fileID: 1020589172}
   - {fileID: 1020589171}
   - {fileID: 1020589170}
-  obstacle: {fileID: 1576086274834620, guid: 69d58fb8b9a0f9c4093c507f16f6dfeb, type: 2}
+  obstacle: {fileID: 1576086274834620, guid: 041ca8bf9adee5e49bd3e051cddd7e0c, type: 2}
   numOfObstacles: 2
 --- !u!114 &141984414
 MonoBehaviour:

@@ -29,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     public void LoadGamePlayScene()
     {
+        AdMob.Instance.DisplayBannerAd();
+
         int levelIndex = PlayerPrefs.GetInt("currentLevel");
         if (levelIndex < 3)
         {
