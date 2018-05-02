@@ -27,11 +27,18 @@ public class StarSpawner : MonoBehaviour
         {
             SpawnStar();
         }
-        if (Target.CurrentScore == initialStars)
+        if (Target.TargetHit == initialStars)
         {
-            int nextLevel = PlayerPrefs.GetInt("currentLevel");
-            nextLevel+=1;
-            SceneManager.LoadScene(nextLevel);
+            if (SceneManager.GetActiveScene().buildIndex >= SceneManager.sceneCount - 2)
+            {
+                int nextLevel = PlayerPrefs.GetInt("currentLevel");
+                nextLevel += 1;
+                SceneManager.LoadScene(nextLevel);
+            }
+            else
+            {
+                SceneManager.LoadScene("coming_soon");
+            }
         }
 	}
 

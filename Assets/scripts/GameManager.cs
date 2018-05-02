@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
 	void Awake () 
     {
         MakeInstance();
+        AdMob.Instance.DisplayBannerAd();
 	}
         
     public void MakeInstance()
@@ -29,7 +30,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadGamePlayScene()
     {
-        AdMob.Instance.DisplayBannerAd();
+        //AdMob.Instance.DisplayBannerAd();
 
         int levelIndex = PlayerPrefs.GetInt("currentLevel");
         if (levelIndex < 3)
@@ -57,6 +58,11 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void LoadCredits()
+    {
+        SceneManager.LoadScene("credits");
+    }
+
     public void Reload()
     {
         LoadGamePlayScene();
@@ -65,7 +71,7 @@ public class GameManager : MonoBehaviour
     public void Reset()
     {
         PlayerPrefs.SetInt("currentScore", 0);
-        PlayerPrefs.SetInt("highScore", 0);
+        //PlayerPrefs.SetInt("highScore", 0);
         PlayerPrefs.SetInt("currentLevel", 3);
     }
 
