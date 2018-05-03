@@ -263,8 +263,6 @@ MonoBehaviour:
   rotateSpeed: 2000000
   moveSpeed: 10
   hitSound: {fileID: 8300000, guid: a09b315a51299ba488f027f8dbaacc69, type: 3}
-  numberOfStars: 5
-  spawnPoint: {fileID: 0}
 --- !u!212 &212767531052291072
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -300,7 +298,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f40fbcb191d8f234481273dff75c247f, type: 3}
-  m_Color: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

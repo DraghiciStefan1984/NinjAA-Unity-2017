@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 20802931020520634}
   - component: {fileID: 124829202137911974}
   - component: {fileID: 81928321332966014}
-  - component: {fileID: 114127199043504300}
   - component: {fileID: 82055680402769300}
+  - component: {fileID: 114263934694687550}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -52,7 +52,7 @@ Camera:
   m_GameObject: {fileID: 1252221813987986}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -65,7 +65,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -167,7 +167,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &114127199043504300
+--- !u!114 &114263934694687550
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
