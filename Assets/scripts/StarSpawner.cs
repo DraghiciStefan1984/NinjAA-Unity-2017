@@ -34,6 +34,17 @@ public class StarSpawner : MonoBehaviour
             {
                 Target.CurrentScore += initialStars;
                 int nextLevel = PlayerPrefs.GetInt("currentLevel");
+
+                PlayerPrefs.SetInt("currentScore", Target.CurrentScore);
+
+                int cScore = PlayerPrefs.GetInt("currentScore");
+                int hScore = PlayerPrefs.GetInt("highScore");
+
+                if (cScore >= hScore)
+                {
+                    hScore = cScore;
+                    PlayerPrefs.SetInt("highScore", hScore);
+                }
                 nextLevel += 1;
                 SceneManager.LoadScene(nextLevel);
             }

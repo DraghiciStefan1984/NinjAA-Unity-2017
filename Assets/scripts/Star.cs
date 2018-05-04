@@ -49,7 +49,7 @@ public class Star : MonoBehaviour
 
         if (target.tag == "Star" || target.tag == "Obstacle")
         {
-            Target.LocalScore = 0;
+            Target.CurrentScore = 0;
             SceneManager.LoadScene("game_over"); 
         }
     }

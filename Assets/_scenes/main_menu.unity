@@ -308,6 +308,20 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: RateUs
       objectReference: {fileID: 0}
+    - target: {fileID: 1224538024625238, guid: 35b070ee21cd7bb4da734c51276ea9f3, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130947665456586, guid: 35b070ee21cd7bb4da734c51276ea9f3,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224130947665456586, guid: 35b070ee21cd7bb4da734c51276ea9f3,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -237
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 35b070ee21cd7bb4da734c51276ea9f3, type: 2}
   m_IsPrefabParent: 0
