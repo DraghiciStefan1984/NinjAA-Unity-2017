@@ -50,6 +50,7 @@ public class StarSpawner : MonoBehaviour
             }
             else
             {
+                PlayerPrefs.SetInt("currentScore", 0);
                 SceneManager.LoadScene("coming_soon");
             }
         }

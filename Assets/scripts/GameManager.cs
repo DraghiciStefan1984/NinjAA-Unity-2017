@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
     public void Reset()
     {
         PlayerPrefs.SetInt("currentScore", 0);
-        PlayerPrefs.SetInt("highScore", 0);
+        //PlayerPrefs.SetInt("highScore", 0);
         PlayerPrefs.SetInt("currentLevel", 4);
     }
 
