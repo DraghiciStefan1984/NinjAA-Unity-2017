@@ -5,6 +5,7 @@ using admob;
 
 public class AdMob : MonoBehaviour 
 {
+    /*
     public static AdMob Instance{ get; set;}
 
 	// Use this for initialization
@@ -36,4 +37,5 @@ public class AdMob : MonoBehaviour
         Admob.Instance().setTesting(true);
         Admob.Instance().showBannerRelative(AdSize.Banner, AdPosition.BOTTOM_CENTER, 1);
     }
+    */
 }

@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
 	void Awake () 
     {
         MakeInstance();
-        AdMob.Instance.DisplayBannerAd();
+        //AdMob.Instance.DisplayBannerAd();
 	}
         
     public void MakeInstance()
