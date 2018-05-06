@@ -1,13 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\GameManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\StarSpawner.cs">
     <Files>
-      <File FileName="Assets\scripts\SaveManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\StarSpawner.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\target scripts\Target.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\Star.cs" Line="1" Column="1" />
-      <File FileName="Assets\scripts\GameManager.cs" Line="26" Column="3" />
-      <File FileName="Assets\scripts\AdMob.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\GameManager.cs" Line="19" Column="11" />
+      <File FileName="Assets\scripts\Star.cs" Line="48" Column="10" />
+      <File FileName="Assets\scripts\target scripts\Target.cs" Line="17" Column="11" />
+      <File FileName="Assets\scripts\StarSpawner.cs" Line="16" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -175,6 +175,11 @@ Prefab:
       propertyPath: shurikenNumberText
       value: 
       objectReference: {fileID: 982684338}
+    - target: {fileID: 114274140415892824, guid: c3927923d744f0047b9d54fac3b55a0c,
+        type: 2}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 982684341}
     - target: {fileID: 1323365340575560, guid: c3927923d744f0047b9d54fac3b55a0c, type: 2}
       propertyPath: m_Name
       value: StarSpawner
@@ -302,6 +307,12 @@ MonoBehaviour:
 --- !u!114 &982684340 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114782107929144996, guid: d71ce3a5a06728a40bcba580ac7a02a1,
+    type: 2}
+  m_PrefabInternal: {fileID: 982684337}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!114 &982684341 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114791014371455940, guid: d71ce3a5a06728a40bcba580ac7a02a1,
     type: 2}
   m_PrefabInternal: {fileID: 982684337}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}

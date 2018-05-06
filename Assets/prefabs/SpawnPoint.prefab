@@ -53,4 +53,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   star: {fileID: 1566673520675906, guid: 5947e045a7ed65a409e08818fd722712, type: 2}
   shurikenNumberText: {fileID: 0}
+  winText: {fileID: 0}
   numberOfStars: 5

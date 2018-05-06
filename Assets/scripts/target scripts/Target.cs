@@ -14,7 +14,7 @@ public class Target : MonoBehaviour
 	void Start () 
     {
         TargetHit = 0;
-        CurrentScore = PlayerPrefs.GetInt("currentScore");
+        //CurrentScore = PlayerPrefs.GetInt("currentScore");
         currentScoreText.text = "score: " + CurrentScore;
         levelText.text = SceneManager.GetActiveScene().name;
 
@@ -28,6 +28,7 @@ public class Target : MonoBehaviour
             CurrentScore++;
             TargetHit++;
             currentScoreText.text = "score: " + CurrentScore;
+            //PlayerPrefs.SetInt("currentScore", CurrentScore);
         }
     }
 }

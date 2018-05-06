@@ -7,16 +7,21 @@ using UnityEngine.UI;
 public class StarSpawner : MonoBehaviour 
 {
     [SerializeField] private GameObject star;
-    [SerializeField] private Text shurikenNumberText;
+    [SerializeField] private Text shurikenNumberText, winText;
+
+    private Color winTextColor;
 
     public int numberOfStars;
     private bool canSpawn;
-    private int initialStars;
+    private int initialStars, nextLevel;
 
     void Start()
     {
         initialStars = numberOfStars;
         shurikenNumberText.text = "shurikens: " + numberOfStars;
+        winTextColor = winText.color;
+        winTextColor.a = 0f;
+        winText.color = winTextColor;
     }
 
 	// Update is called once per frame
@@ -33,20 +38,11 @@ public class StarSpawner : MonoBehaviour
             if (SceneManager.GetActiveScene().buildIndex >= SceneManager.sceneCount - 2)
             {
                 Target.CurrentScore += initialStars;
-                int nextLevel = PlayerPrefs.GetInt("currentLevel");
+                nextLevel = PlayerPrefs.GetInt("currentLevel");
 
-                PlayerPrefs.SetInt("currentScore", Target.CurrentScore);
+                //PlayerPrefs.SetInt("currentScore", Target.CurrentScore);
 
-                int cScore = PlayerPrefs.GetInt("currentScore");
-                int hScore = PlayerPrefs.GetInt("highScore");
-
-                if (cScore >= hScore)
-                {
-                    hScore = cScore;
-                    PlayerPrefs.SetInt("highScore", hScore);
-                }
-                nextLevel += 1;
-                SceneManager.LoadScene(nextLevel);
+                StartCoroutine(LoadNextLevelSequence());
             }
             else
             {
@@ -65,5 +61,19 @@ public class StarSpawner : MonoBehaviour
             numberOfStars--;
             shurikenNumberText.text = "shurikens: " + numberOfStars;
         }
+    }
+        
+    IEnumerator LoadNextLevelSequence()
+    {
+        winTextColor.a = 1f;
+        winText.color = winTextColor;
+        yield return new WaitForSeconds(1.5f);
+        LoadNextLevel();
+    }
+
+    void LoadNextLevel()
+    {
+        nextLevel += 1;
+        SceneManager.LoadScene(nextLevel);
     }
 }
