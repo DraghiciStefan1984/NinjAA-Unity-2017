@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
 	void Awake () 
     {
         MakeInstance();
-        //AdMob.Instance.DisplayBannerAd();
 	}
         
     public void MakeInstance()
@@ -37,12 +36,12 @@ public class GameManager : MonoBehaviour
 
     public void LoadGamePlayScene()
     {
-        //AdMob.Instance.DisplayBannerAd();
+        AdMob.Instance.DisplayBannerAd();
 
         int levelIndex = PlayerPrefs.GetInt("currentLevel");
         if (levelIndex < 4)
         {
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Level 1");
         }
         else
         {
@@ -52,11 +51,13 @@ public class GameManager : MonoBehaviour
 
     public void LoadHighScoreScene()
     {
+        AdMob.Instance.DisplayBannerAd();
         SceneManager.LoadScene("high_score");
     }
 
     public void LoadMainMenuScene()
     {
+        AdMob.Instance.DisplayBannerAd();
         SceneManager.LoadScene("main_menu");
     }
 
@@ -67,16 +68,20 @@ public class GameManager : MonoBehaviour
 
     public void LoadCredits()
     {
+        AdMob.Instance.DisplayBannerAd();
         SceneManager.LoadScene("credits");
     }
 
     public void Reload()
     {
+        AdMob.Instance.DisplayBannerAd();
         LoadGamePlayScene();
     }
 
     public void Reset()
     {
+        AdMob.Instance.DisplayBannerAd();
+        SceneManager.LoadScene("Level 1");
         PlayerPrefs.SetInt("currentScore", 0);
         //PlayerPrefs.SetInt("highScore", 0);
         PlayerPrefs.SetInt("currentLevel", 4);

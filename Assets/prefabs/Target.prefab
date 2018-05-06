@@ -83,7 +83,6 @@ GameObject:
   - component: {fileID: 114802073445530582}
   - component: {fileID: 58434168792601078}
   - component: {fileID: 114573465490823454}
-  - component: {fileID: 114790435191864662}
   m_Layer: 0
   m_Name: Target
   m_TagString: Target
@@ -304,28 +303,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScoreText: {fileID: 0}
   levelText: {fileID: 0}
---- !u!114 &114790435191864662
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1576086274834620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71be08379e890104ea50cd82467b40d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoints:
-  - {fileID: 1497565340576572}
-  - {fileID: 1607346408637606}
-  - {fileID: 1847650678174784}
-  - {fileID: 1847125655914370}
-  - {fileID: 1830292907164306}
-  - {fileID: 1255009886519682}
-  - {fileID: 1571797932865316}
-  - {fileID: 1111902305556506}
-  obstacle: {fileID: 1576086274834620, guid: 041ca8bf9adee5e49bd3e051cddd7e0c, type: 2}
-  numOfObstacles: 0
 --- !u!114 &114802073445530582
 MonoBehaviour:
   m_ObjectHideFlags: 1

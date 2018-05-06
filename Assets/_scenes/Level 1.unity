@@ -328,16 +328,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 114573465490823454, guid: 1447c12eee468824db4af48eac775d38,
         type: 2}
-      propertyPath: levelText
-      value: 
-      objectReference: {fileID: 982684339}
-    - target: {fileID: 114573465490823454, guid: 1447c12eee468824db4af48eac775d38,
-        type: 2}
       propertyPath: currentScoreText
       value: 
       objectReference: {fileID: 982684340}
-    m_RemovedComponents:
-    - {fileID: 114790435191864662, guid: 1447c12eee468824db4af48eac775d38, type: 2}
+    - target: {fileID: 114573465490823454, guid: 1447c12eee468824db4af48eac775d38,
+        type: 2}
+      propertyPath: levelText
+      value: 
+      objectReference: {fileID: 982684339}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1447c12eee468824db4af48eac775d38, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1118340398
