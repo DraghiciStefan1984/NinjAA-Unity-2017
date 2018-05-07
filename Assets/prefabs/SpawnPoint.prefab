@@ -52,6 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   star: {fileID: 1566673520675906, guid: 5947e045a7ed65a409e08818fd722712, type: 2}
-  shurikenNumberText: {fileID: 0}
-  winText: {fileID: 0}
+  shurikenNumberText: {fileID: 114004530199388170, guid: d71ce3a5a06728a40bcba580ac7a02a1,
+    type: 2}
+  winText: {fileID: 114791014371455940, guid: d71ce3a5a06728a40bcba580ac7a02a1, type: 2}
   numberOfStars: 5

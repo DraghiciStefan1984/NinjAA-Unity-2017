@@ -10,11 +10,13 @@ public class Target : MonoBehaviour
     [SerializeField] Text currentScoreText, levelText;
     public static int TargetHit{ get; set; }
 
+    private Color winTextColor;
+
 	// Use this for initialization
 	void Start () 
     {
         TargetHit = 0;
-        //CurrentScore = PlayerPrefs.GetInt("currentScore");
+        CurrentScore = PlayerPrefs.GetInt("currentScore");
         currentScoreText.text = "score: " + CurrentScore;
         levelText.text = SceneManager.GetActiveScene().name;
 
@@ -28,7 +30,6 @@ public class Target : MonoBehaviour
             CurrentScore++;
             TargetHit++;
             currentScoreText.text = "score: " + CurrentScore;
-            //PlayerPrefs.SetInt("currentScore", CurrentScore);
         }
     }
 }

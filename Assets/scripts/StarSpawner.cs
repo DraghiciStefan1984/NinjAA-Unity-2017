@@ -9,27 +9,29 @@ public class StarSpawner : MonoBehaviour
     [SerializeField] private GameObject star;
     [SerializeField] private Text shurikenNumberText, winText;
 
-    private Color winTextColor;
-
     public int numberOfStars;
-    private bool canSpawn;
-    private int initialStars, nextLevel;
+    public static bool CanSpawn{ get; set; }
+    private int initialStars;
+    private Color winColor;
+    int nextLevel;
 
     void Start()
     {
         initialStars = numberOfStars;
         shurikenNumberText.text = "shurikens: " + numberOfStars;
-        winTextColor = winText.color;
-        winTextColor.a = 0f;
-        winText.color = winTextColor;
+        winColor = winText.color;
+        winColor.a = 0f;
+        winText.color = winColor;
+        CanSpawn = true;
     }
 
 	// Update is called once per frame
 	void Update ()
     {
-        canSpawn = true;
-        if (numberOfStars > 0 && canSpawn == true)
+        //CanSpawn = true;
+        if (numberOfStars > 0 && CanSpawn)
         {
+            CanSpawn = true;
             SpawnStar();
         }
 
@@ -37,12 +39,22 @@ public class StarSpawner : MonoBehaviour
         {
             if (SceneManager.GetActiveScene().buildIndex >= SceneManager.sceneCount - 2)
             {
-                Target.CurrentScore += initialStars;
+                //Target.CurrentScore += initialStars;
                 nextLevel = PlayerPrefs.GetInt("currentLevel");
 
-                //PlayerPrefs.SetInt("currentScore", Target.CurrentScore);
+                PlayerPrefs.SetInt("currentScore", Target.CurrentScore);
 
-                StartCoroutine(LoadNextLevelSequence());
+                int cScore = PlayerPrefs.GetInt("currentScore");
+                int hScore = PlayerPrefs.GetInt("highScore");
+
+                if (cScore >= hScore)
+                {
+                    hScore = cScore;
+                    PlayerPrefs.SetInt("highScore", hScore);
+                }
+                StartCoroutine(LoadNextLevel());
+                //nextLevel += 1;
+                //SceneManager.LoadScene(nextLevel);
             }
             else
             {
@@ -56,23 +68,23 @@ public class StarSpawner : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            canSpawn = false;
-            Instantiate(star, transform.position, transform.rotation);
-            numberOfStars--;
-            shurikenNumberText.text = "shurikens: " + numberOfStars;
+            if (CanSpawn)
+            {
+                //CanSpawn = false;
+                Instantiate(star, transform.position, transform.rotation);
+                numberOfStars--;
+                shurikenNumberText.text = "shurikens: " + numberOfStars;
+            }
         }
     }
-        
-    IEnumerator LoadNextLevelSequence()
-    {
-        winTextColor.a = 1f;
-        winText.color = winTextColor;
-        yield return new WaitForSeconds(1.5f);
-        LoadNextLevel();
-    }
 
-    void LoadNextLevel()
+    IEnumerator LoadNextLevel()
     {
+        winColor.a = 1f;
+        winText.color = winColor;
+
+        yield return new WaitForSeconds(1.5f);
+
         nextLevel += 1;
         SceneManager.LoadScene(nextLevel);
     }

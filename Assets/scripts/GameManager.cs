@@ -15,8 +15,11 @@ public class GameManager : MonoBehaviour
 	void Awake () 
     {
         MakeInstance();
-        //for reseting while testing
+        //AdMob.Instance.DisplayBannerAd();
+
+        //for debugging only
         //PlayerPrefs.SetInt("currentScore", 0);
+        //PlayerPrefs.SetInt("highScore", 0);
         //PlayerPrefs.SetInt("currentLevel", 4);
 	}
         
@@ -36,7 +39,7 @@ public class GameManager : MonoBehaviour
         int levelIndex = PlayerPrefs.GetInt("currentLevel");
         if (levelIndex < 4)
         {
-            SceneManager.LoadScene("Level 1");
+            SceneManager.LoadScene("Level1");
         }
         else
         {
@@ -76,8 +79,8 @@ public class GameManager : MonoBehaviour
     public void Reset()
     {
         AdMob.Instance.DisplayBannerAd();
-        SceneManager.LoadScene("Level 1");
         PlayerPrefs.SetInt("currentScore", 0);
+        PlayerPrefs.SetInt("highScore", 0);
         PlayerPrefs.SetInt("currentLevel", 4);
     }
 

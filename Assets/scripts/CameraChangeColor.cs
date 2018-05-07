@@ -16,7 +16,6 @@ public class CameraChangeColor : MonoBehaviour
 
     void Start()
     {
-        Camera.main.backgroundColor = new Color32(255, 231, 189, 1);
         audioSource.Play();
     }
 

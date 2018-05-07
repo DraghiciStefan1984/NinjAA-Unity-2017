@@ -9,12 +9,17 @@ public class Star : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private AudioClip hitSound;
 
+    private Rigidbody2D targetBody;
+    private CircleCollider2D targetCollider;
+
     private AudioSource audioSource;
     private bool canMove;
 
 	// Use this for initialization
 	void Awake () 
     {
+        targetBody = GameObject.FindGameObjectWithTag("Target").GetComponent<Rigidbody2D>();
+        targetCollider = GameObject.FindGameObjectWithTag("Target").GetComponent<CircleCollider2D>();
         audioSource = GetComponent<AudioSource>();
 	}
 	
@@ -49,8 +54,23 @@ public class Star : MonoBehaviour
 
         if (target.tag == "Star" || target.tag == "Obstacle")
         {
-            Target.CurrentScore = 0;
-            SceneManager.LoadScene("game_over"); 
+            StartCoroutine(LoadLoseScreen());
         }
+    }
+
+    IEnumerator LoadLoseScreen()
+    {
+        
+        targetBody.isKinematic = false;
+        targetCollider.enabled = false;
+        StarSpawner.CanSpawn = false;
+        this.GetComponent<Rigidbody2D>().isKinematic = false;
+        this.GetComponent<PolygonCollider2D>().enabled = false;
+        canMove = false;
+
+        Target.CurrentScore = 0;
+
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene("game_over"); 
     }
 }
