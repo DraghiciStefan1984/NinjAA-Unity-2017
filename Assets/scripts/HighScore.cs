@@ -18,11 +18,11 @@ public class HighScore : MonoBehaviour
 
         if (currentScoreValue >= highScoreValue)
         {
-            highScoreText.text = "your score: " + currentScoreValue;
+            highScoreText.text = "highest score: " + currentScoreValue;
         }
         else
         {
-            highScoreText.text = "your score: " + highScoreValue;
+            highScoreText.text = "highest score: " + highScoreValue;
         }
 	}
 }

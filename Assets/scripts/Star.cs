@@ -68,8 +68,6 @@ public class Star : MonoBehaviour
         this.GetComponent<PolygonCollider2D>().enabled = false;
         canMove = false;
 
-        Target.CurrentScore = 0;
-
         yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("game_over"); 
     }

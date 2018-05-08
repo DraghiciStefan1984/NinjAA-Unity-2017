@@ -1,0 +1,204 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:7:1-36:12
+	package
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:7:70-105
+		INJECTED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:7:106-131
+		INJECTED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:7:132-155
+		INJECTED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:7:11-69
+	android:installLocation
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:7:156-196
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:9:3-77
+MERGED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:24:5-79
+MERGED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:9:20-74
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:10:3-74
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:10:20-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:11:3-73
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:11:20-70
+uses-permission#android.permission.INTERNET
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:12:3-65
+MERGED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:23:5-67
+MERGED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:12:20-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:13:3-79
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:13:20-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:14:3-79
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:14:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:15:3-77
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:15:20-74
+uses-permission#android.permission.ACCESS_COARSE_UPDATES
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:16:3-78
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:16:20-75
+application
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:19:3-30:17
+MERGED from [:appcompat-v7-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\dc128749dd56a30670aba14976ac046a9d0f929f\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:26:5-34:19
+MERGED from [:play-services-basement-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\148ac03989fcc72186685e21ed2aa49f000a034b\output\AndroidManifest.xml:22:5-26:19
+MERGED from [:play-services-gass-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\7f68a0e6509f7f90c8dc0f935c6edf1957cae5d1\output\AndroidManifest.xml:7:5-20
+MERGED from [:support-compat-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\a77a47627a1825d9670e0f598213c115148eb91e\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:support-v4-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\ae23632cc2771e2ea5bde2790157fa960de61e29\output\AndroidManifest.xml:25:5-29:19
+MERGED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:14:5-25:19
+	android:label
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:19:92-124
+	android:icon
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:19:58-91
+	android:banner
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:19:147-184
+	android:theme
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:19:16-57
+	android:isGame
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:19:125-146
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:20:5-26:16
+	android:screenOrientation
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:20:102-138
+	android:label
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:20:69-101
+	android:launchMode
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:20:139-170
+	android:configChanges
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:20:171-352
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:20:15-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:21:7-25:23
+action#android.intent.action.MAIN
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:22:9-61
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:22:17-58
+category#android.intent.category.LAUNCHER
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:23:9-69
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:23:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:24:9-78
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:24:19-75
+meta-data#unity.build-id
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:27:5-101
+	android:value
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:27:46-98
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:27:16-45
+meta-data#unity.splash-mode
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:28:5-69
+	android:value
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:28:49-66
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:28:16-48
+meta-data#unity.splash-enable
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:29:5-74
+	android:value
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:29:51-71
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:29:16-50
+uses-sdk
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:31:3-72
+MERGED from [:admoblib-release:] C:\Users\Stefan Draghici\.android\build-cache\fbec7d79cb9f3e9fbe2cdcf11c6e17c36bf34f9f\output\AndroidManifest.xml:7:5-9:41
+MERGED from [:appcompat-v7-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\dc128749dd56a30670aba14976ac046a9d0f929f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [:play-services-ads-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\efe60dd820c9f412a255164590f142b009d41e43\output\AndroidManifest.xml:21:5-23:62
+MERGED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:20:5-44
+MERGED from [:play-services-basement-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\148ac03989fcc72186685e21ed2aa49f000a034b\output\AndroidManifest.xml:20:5-44
+MERGED from [:play-services-gass-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\7f68a0e6509f7f90c8dc0f935c6edf1957cae5d1\output\AndroidManifest.xml:5:5-44
+MERGED from [:support-compat-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\a77a47627a1825d9670e0f598213c115148eb91e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [:support-v4-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\ae23632cc2771e2ea5bde2790157fa960de61e29\output\AndroidManifest.xml:21:5-23:54
+MERGED from [:unity-adapter-2.1.0.0:] C:\Users\Stefan Draghici\.android\build-cache\5d34e5ddeba1ca2529adb0f5c8b1020a2a5395cd\output\AndroidManifest.xml:8:5-10:41
+MERGED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [:appcompat-v7-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\dc128749dd56a30670aba14976ac046a9d0f929f\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:31:40-69
+		INJECTED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:31:13-39
+uses-feature#0x00020000
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:32:3-52
+	android:glEsVersion
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:32:17-49
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:33:3-88
+	android:required
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:33:61-85
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:33:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:34:3-99
+	android:required
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:34:72-96
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:34:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:35:3-108
+	android:required
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:35:81-105
+	android:name
+		ADDED from D:\Unity 2017 Projects\NinjAA-Unity-2017\Temp\gradleOut\src\main\AndroidManifest.xml:35:17-80
+meta-data#android.support.VERSION
+ADDED from [:appcompat-v7-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\dc128749dd56a30670aba14976ac046a9d0f929f\output\AndroidManifest.xml:26:9-28:38
+MERGED from [:support-compat-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\a77a47627a1825d9670e0f598213c115148eb91e\output\AndroidManifest.xml:26:9-28:38
+MERGED from [:support-v4-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\ae23632cc2771e2ea5bde2790157fa960de61e29\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [:appcompat-v7-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\dc128749dd56a30670aba14976ac046a9d0f929f\output\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [:appcompat-v7-26.1.0:] C:\Users\Stefan Draghici\.android\build-cache\dc128749dd56a30670aba14976ac046a9d0f929f\output\AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [:play-services-ads-lite-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\5f25c18f00136f923123b16a8c95899394fb6886\output\AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [:play-services-basement-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\148ac03989fcc72186685e21ed2aa49f000a034b\output\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [:play-services-basement-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\148ac03989fcc72186685e21ed2aa49f000a034b\output\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [:play-services-basement-11.8.0:] C:\Users\Stefan Draghici\.android\build-cache\148ac03989fcc72186685e21ed2aa49f000a034b\output\AndroidManifest.xml:24:13-58
+activity#com.unity3d.ads.adunit.AdUnitActivity
+ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:15:9-19:74
+	android:hardwareAccelerated
+		ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:18:13-47
+	android:configChanges
+		ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:17:13-170
+	android:theme
+		ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:19:13-71
+	android:name
+		ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:16:13-65
+activity#com.unity3d.ads.adunit.AdUnitSoftwareActivity
+ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:20:9-24:74
+	android:hardwareAccelerated
+		ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:23:13-48
+	android:configChanges
+		ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:22:13-170
+	android:theme
+		ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:24:13-71
+	android:name
+		ADDED from [:unity-ads-sdk-2.1:] C:\Users\Stefan Draghici\.android\build-cache\08c93fb71d21c7a6569b66f3f9cbaa0eaff37530\output\AndroidManifest.xml:21:13-73
