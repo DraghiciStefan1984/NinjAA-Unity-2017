@@ -60,7 +60,6 @@ public class Star : MonoBehaviour
 
     IEnumerator LoadLoseScreen()
     {
-        
         targetBody.isKinematic = false;
         targetCollider.enabled = false;
         StarSpawner.CanSpawn = false;

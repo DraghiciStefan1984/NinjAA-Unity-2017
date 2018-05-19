@@ -21,7 +21,7 @@ public class TargetRandomTranslate : MonoBehaviour
 
     void ChangePosition()
     {
-        transform.position = newPosition;
-        newPosition = new Vector3(Random.Range(minXPosition, maxXPosition), Random.Range(minYPosition, maxYPosition), 0f);
+            transform.position = newPosition;
+            newPosition = new Vector3(Random.Range(minXPosition, maxXPosition), Random.Range(minYPosition, maxYPosition), 0f);
     }
 }

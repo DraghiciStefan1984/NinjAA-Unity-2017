@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
         AdMob.Instance.DisplayBannerAd();
 
         int levelIndex = PlayerPrefs.GetInt("currentLevel");
-        if (levelIndex < 4)
+        if (levelIndex <= 4)
         {
             SceneManager.LoadScene("Level 1");
         }
@@ -88,7 +88,7 @@ public class GameManager : MonoBehaviour
     public void RateUs()
     {
         #if UNITY_ANDROID
-        Application.OpenURL("market://details?id=enter your android app id");
+        Application.OpenURL("market://details?id=com.draghicistefan.ninjaa");
         #elif UNITY_IPHONE
         Application.OpenURL("market://details?id=enter your ios app id");
         #endif
