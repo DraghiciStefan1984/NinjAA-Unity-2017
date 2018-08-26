@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_scenes/coming_soon.unity
+- path: Assets/_scenes/credits.unity
   isLoaded: 1
   isActive: 1
